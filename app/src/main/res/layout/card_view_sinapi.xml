@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view_sinapi"
+    android:layout_margin="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#3E1F39"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="6dp"
+    app:contentPadding="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/item_image_sinapi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codelia"
+            android:textColor="@color/white"
+            android:id="@+id/item_title_sinapi"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/item_image_sinapi"
+            android:layout_toRightOf="@id/item_image_sinapi"
+            android:layout_alignParentTop="true"
+            android:textSize="30sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalles"
+            android:textColor="@color/white"
+            android:id="@+id/item_detal_sinapi"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/item_image_sinapi"
+            android:layout_toRightOf="@id/item_image_sinapi"
+            android:layout_below="@id/item_title_sinapi"
+            ></TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
